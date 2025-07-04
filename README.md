@@ -31,22 +31,23 @@ QuickRead is a full-stack MERN-based news aggregation platform that delivers cat
 ## 📸 Screenshots
 
 ### 🔹 Homepage
-![Homepage](image.png)
+![Homepage](screenshots/image.png)
 
 ### 🔹 Category View
-![Category](image-1.png)
+![Category](screenshots/image-1.png)
 
 ### 🔹 Register Page
-![Register](image-2.png)
+![Register](screenshots/image-2.png)
 
 ### 🔹 Login Page
-![Login](image-3.png)
+![Login](screenshots/image-3.png)
 
 ### 🔹 Forgot Password Page
-![Forgot Password](image-4.png)
+![Forgot Password](screenshots/image-4.png)
 
 ### 🔹 Article Detail View
-![Article](image-5.png)
+![Article](screenshots/image-5.png)
+
 
 🙋‍♀️ Author
 Aarti Pal – MCA Student & Full Stack Developer
