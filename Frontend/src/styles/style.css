@@ -1,0 +1,97 @@
+.progress-bar {
+    width: 100%;
+    background-color: #f3f3f3;
+    border-radius: 5px;
+}
+
+.progress-bar-fill {
+    height: 20px;
+    width: 50%; /* Dynamically adjust */
+    background-color: #4caf50;
+    border-radius: 5px;
+    transition: width 0.3s;
+}
+
+/* General button styles */
+.news-card button {
+    border: none;
+    border-radius: 4px;
+    padding: 8px 12px;
+    font-size: 14px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+  }
+  
+  /* Hover effect for Read button */
+  .news-card .read-btn {
+    background-color: #007bff; /* Bootstrap primary blue */
+    color: #fff;
+  }
+  
+  .news-card .read-btn:hover {
+    background-color: #0056b3; /* Darker blue on hover */
+    transform: scale(1.05); /* Slight zoom effect */
+  }
+  
+  /* Hover effect for Share button */
+  .news-card .share-btn {
+    background-color: #28a745; /* Bootstrap success green */
+    color: #fff;
+  }
+  
+  .news-card .share-btn:hover {
+    background-color: #1e7e34; /* Darker green on hover */
+    transform: scale(1.05); /* Slight zoom effect */
+  }
+  
+  /* Add spacing between buttons */
+  .news-card .read-btn + .share-btn {
+    margin-left: 8px;
+  }
+
+  /* General card styles */
+.news-card {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    overflow: hidden;
+  }
+  
+  /* Hover effect for the card */
+  .news-card:hover {
+    transform: translateY(-5px); /* Lift the card slightly */
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.15); /* Add a shadow */
+  }
+  
+  /* Adjusting the card title on hover */
+  .news-card:hover .card-title {
+    color: #000000; /* Change title color to blue */
+  }
+  
+  /* Adjusting the card text on hover */
+  .news-card:hover .card-text {
+    color: #555; /* Subtle color change for text */
+  }
+
+  .news-card .card-title{
+    color:#000000;
+  }
+  
+  .card img {
+    width: 300px;
+    height: 200px; /* Adjust to your preference */
+    object-fit: cover; /* Ensures the image fills the area */
+  }
+
+  .share-btn {
+    background-color: gray; /* Bootstrap primary blue */
+    color: white; /* White text */
+    border: none; /* Remove border */
+    padding: 8px 16px; /* Add padding */
+    border-radius: 4px; /* Rounded corners */
+    cursor: pointer; /* Pointer cursor */
+}
+
+.btn-share:hover {
+    background-color: rgb(106, 106, 106); /* Darker blue for hover effect */
+}
